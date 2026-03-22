@@ -10,23 +10,23 @@
 .nav_ li {
     display: flex;
     flex-direction: column;
-    width: 150px;
+    width: 10%;
     color: black;
     margin: 0px;
-    font-size: 20px;
+    font-size: 100%;
 }
 h1 {
     color: rgb(255, 0, 136);
     display: flex;
-    margin: 30px;
+    margin: 10px;
 }
 p {
     color: rgb(0, 13, 255);
     font-family:italic;
-    font-size: 18px;
-    margin: 40px;
+    font-size: 120%;
+    margin: 10px;
 }
-.genral {
+.general {
     font-family: italic;
     margin: 0px;
     min-height: 100vh;
@@ -48,8 +48,8 @@ h1 {
     width: 50%;
 }
 .pluslong {
-    width: 800px;
-    font-size: 25px;
+    width: 120%;
+    font-size: 100%;
 }
 section {
     margin: 20px;
@@ -59,18 +59,19 @@ section {
     width: 80%;
 }
 img {
-    width: 250px;
+    width: 100%;
     border-radius: 50%;
-   justify-items: start;
+   justify-items: end;
 }
 button {
     color: white;
     background-color: #376f74;
-    padding: 10px 20px;
+    padding: 10px;
     border: 3px solid rgb(166, 151, 117);
     border-radius: 20px;
-    align-items: end;
-    width: 300px;
+    align-items: center;
+    width: 70%;
+    font-size: 60%;
 }
 .Acceuil {
     border: 6px solid rgb(255, 187, 0);
@@ -79,12 +80,12 @@ button {
 }
 div {
     background-color: rgb(155, 193, 226);
-    width: 40%;
+    width: 80%;
     margin: 10px;
     border: 4px solid black;
-    padding: 5px;
+    padding: 3%;
     text-align: center;
-    border-radius: 15px;
+    border-radius: 10%;
 }
 
 
@@ -105,11 +106,51 @@ div {
 
 .contact {
     display: flex;
-    gap: 180px;
+    gap: 100px;
+    justify-content: space-around;
 }
 .contact div {
-    width: 500px;
+    width: 100%;
 }
 #detail {
     width: 200px;
+}
+@media all and (max-width:1000px) {
+    .Body {
+        width: 100%;
+        display: block;
+    }
+    .nav_ {
+        display: block;
+        flex-direction: row;
+    }
+    div {
+        width: 100%;
+    }
+    .nav_ li {
+        display: block;
+    }
+    .h3acceuil {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .general {
+        display: block;
+    }
+    .contact {
+        display: block;
+        /* width: 100%; */
+    }
+    div {
+        width: 100%;
+    }
+    .apropos {
+        display: block;
+    }
+    .contact div {
+         width: 250px;
+    height: 150px;
+    }
+    
 }
