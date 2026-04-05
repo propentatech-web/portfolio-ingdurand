@@ -1,10 +1,10 @@
 .nos-services {
-  background-image: url("Arrière.png"); /* chemin vers ton image */
-  background-size: 800px;       /* l’image couvre tout l’écran */
-  background-repeat:no-repeat; /* évite la répétition */
-  background-position: center;  /* centre l’image */
-  width: 90%;
-  height: 800px;
+  /*background-image: url("Arrière.png"); /* chemin vers ton image */
+  /*background-size: 800px;       /* l’image couvre tout l’écran */
+  /*background-repeat:no-repeat; /* évite la répétition */
+  /*background-position: center;  /* centre l’image */
+  width: 75%;
+  height: 500px;
   margin: 0 auto;
 }
 
@@ -25,5 +25,9 @@
     .card-item-details {
         width: 10px;
         padding: 0px;
+    }
+    .nos-services img {
+        width: 300px;
+        height: 350px;
     }
 }
